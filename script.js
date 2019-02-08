@@ -51,6 +51,7 @@ function countRepeat(str){
 
     
     for (i = 1; i < str.length; i++) {
+        //check if the current char and the previous are not the same and add to count
         if (str.charAt(i) != str.charAt(i-1)) {
             result += count + str.charAt(i);
             count = 1;
