@@ -4,4 +4,10 @@ body {
 
 body div h1 {
 	color: green;
+	text-align: center;
+}
+
+.halfScreen{
+	max-width:50%;
+	margin: 0 auto;
 }
